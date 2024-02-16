@@ -1,0 +1,103 @@
+.background {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.control {
+  background-color: #263238;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #000000; 
+  }
+
+  .name {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: #ffffff;
+      font-weight: bolder;
+    }
+  }
+
+  .grids {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .price,
+  .td1 {
+    font-size: 1.2rem;
+    color: yellow; 
+    text-align: center;
+
+    @media screen and (max-width: 768px) {
+      font-size: 1rem;
+    }
+  }
+  .td2 {
+    font-size: 1.2rem;
+    color: rgb(0, 255, 0);
+    text-align: center;
+
+    @media screen and (max-width: 768px) {
+      font-size: 1rem;
+    }
+  }
+  .td3 {
+    font-size: 1.2rem;
+    color: red; 
+    text-align: center;
+
+    @media screen and (max-width: 768px) {
+      font-size: 1rem;
+    }
+  }
+  .td4 {
+    font-size: 1.2rem;
+    color: rgb(35, 35, 255);
+    text-align: center;
+
+    @media screen and (max-width: 768px) {
+      font-size: 1rem;
+    }
+  }
+
+
+  .price {
+    display: flex;
+    align-items: center;
+  }
+
+  .info {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #666666; 
+  }
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

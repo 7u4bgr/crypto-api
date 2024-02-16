@@ -1,0 +1,99 @@
+.background {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.control {
+  background-color: #263238;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+.control:hover {
+  background-color: #000000;
+}
+.control .name {
+  display: flex;
+  align-items: center;
+}
+.control .name img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.control .name h2 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: bolder;
+}
+.control .grids {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.control .price,
+.control .td1 {
+  font-size: 1.2rem;
+  color: yellow;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .control .price,
+  .control .td1 {
+    font-size: 1rem;
+  }
+}
+.control .td2 {
+  font-size: 1.2rem;
+  color: rgb(0, 255, 0);
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .control .td2 {
+    font-size: 1rem;
+  }
+}
+.control .td3 {
+  font-size: 1.2rem;
+  color: red;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .control .td3 {
+    font-size: 1rem;
+  }
+}
+.control .td4 {
+  font-size: 1.2rem;
+  color: rgb(35, 35, 255);
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .control .td4 {
+    font-size: 1rem;
+  }
+}
+.control .price {
+  display: flex;
+  align-items: center;
+}
+.control .info {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #666666;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-color: #263238;
+  .control {
+    padding: 20px 0;
+    .first {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .name {
+        h2 {
+          font-family: "Inter", sans-serif;
+   
+          font-weight: bolder;
+          font-size: 18px;
+          color: rgb(206, 206, 206);
+
+        }
+      }
+
+      .price {
+        width: 100%;
+        margin-top: 20px;
+        .swiper-container {
+          width: 100%;
+        }
+      }
+
+      .td1 {
+        color: yellow;
+        font-family: "Inter", sans-serif;
+        font-weight: bolder;
+        font-size: 14px;
+        text-align: center;
+      }
+      .td2 {
+        color: rgb(0, 255, 0);
+        font-family: "Inter", sans-serif;
+        font-weight: bolder;
+        font-size: 14px;
+        text-align: center;
+      }
+      .td3 {
+        color: red;
+        font-family: "Inter", sans-serif;
+        font-weight: bolder;
+        font-size: 14px;
+        text-align: center;
+      }
+      .td4 {
+        color: rgb(35, 35, 255);
+        font-family: "Inter", sans-serif;
+        font-weight: bolder;
+        font-size: 14px;
+        text-align: center;
+      }
+      .info {
+        margin-top: 20px;
+        h2 {
+          font-family: "Inter", sans-serif;
+          color: rgb(206, 206, 206);
+
+          font-weight: bolder;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .control {
+      padding-top: 30px;
+      .first {
+        flex-direction: row;
+        justify-content: space-between;
+
+        .name {
+          h2 {
+            font-size: 24px;
+          }
+        }
+
+        .price {
+          margin-top: 0;
+          
+          .swiper-container {
+            .swiper-slide {
+            }
+          }
+        }
+        .td {
+          font-size: 24px;
+        }
+        .info {
+          margin-top: 0;
+          h2 {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}
